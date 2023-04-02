@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-
-nssm restart NekoRobot
+net stop Test_baba_bot
+net start Test_baba_bot
