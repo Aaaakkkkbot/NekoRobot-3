@@ -80,7 +80,7 @@ async def hmm(yes):
     NekoX += f"**♡ Pyrogram Version :** `{pyrover}`\n\n"
     NekoX += "**♡ My Master :** [LovelyPrince](https://t.me/Its_IZ_PRINCE_xD) "
     NekoX += f"Thanks For Adding Me In {yes.chat.title}"
-    BUTTON = [
+    BUTTON = [[Button.url("Support Chat", "https://t.me/AsukaSupport"), 
         [
             Button.url("【► Help ◄】", f"https://t.me/{BOT_USERNAME}?start=help"),
             Button.url("【► Support ◄】", f"https://t.me/{SUPPORT_CHAT}"),
